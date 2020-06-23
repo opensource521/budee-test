@@ -1,0 +1,34 @@
+.main-container {
+  background: black;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.input-wrapper {
+  label {
+    display: block;
+    color: white;
+  }
+
+  input {
+    font-size: 1.25rem;
+  }
+}
+
+.left-pane {
+  flex: 1 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.board-pane {
+  flex: 0 0 auto;
+  width: 800px;
+  height: 100%;
+}
+
+.right-pane {
+  flex: 1 0 auto;
+}

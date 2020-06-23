@@ -1,0 +1,15 @@
+.checkerboard-main {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+}
+
+.row {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.cell {
+  flex: 1;
+}
